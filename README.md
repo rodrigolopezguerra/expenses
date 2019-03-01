@@ -30,10 +30,11 @@ You will need a somewhat recent version of [Node](https://nodejs.org/en/) and a 
 
 1) make a copy of [Expense Sheet](https://docs.google.com/spreadsheets/d/1Lz1_gHIgCKPKhJpFerq9PoNy-TIst7eLZ5plQi5Prv0/edit?usp=sharing) to your drive `File -> Make a copy...`
 2) note the id of your new sheet (it's part of the URL)
-3) clone and build the app:
+3) clone,instal and build the app:
 
 
 ```
+npm install
 REACT_APP_SHEET_ID=<replace with your sheet id> npm run build
 ```
 
