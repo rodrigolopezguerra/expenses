@@ -170,7 +170,7 @@ class App extends Component {
       expense.account,
       expense.category,
       expense.amount,
-	  window.gapi.auth2.currentUser.get()
+	  window.gapi.auth2.getAuthInstance().currentUser.get().getBasicProfile().getEmail()
     ];
   }
 
