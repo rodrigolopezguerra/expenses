@@ -144,8 +144,7 @@ class App extends Component {
           ? "0" + now.getDate()
           : now.getDate()}`,
         category: this.state.categories[0],
-        account: this.state.accounts[0],
-		user: this.state.signedIn.get
+        account: this.state.accounts[0]
       }
     });
   }
@@ -170,7 +169,8 @@ class App extends Component {
       expense.description,
       expense.account,
       expense.category,
-      expense.amount
+      expense.amount,
+	  window.gapi.auth2.getAuthInstance().currentUser.get()
     ];
   }
 
