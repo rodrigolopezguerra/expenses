@@ -144,7 +144,8 @@ class App extends Component {
           ? "0" + now.getDate()
           : now.getDate()}`,
         category: this.state.categories[0],
-        account: this.state.accounts[0]
+        account: this.state.accounts[0],
+		user: this.state.signedIn.get
       }
     });
   }
