@@ -11,7 +11,8 @@ It was inspired by the [expense-manager](https://github.com/mitul45/expense-mana
 * Multiple accounts
   * Checking, savings, joint, etc.
 * Categories
-* [Google Sheet](https://docs.google.com/spreadsheets/d/1Lz1_gHIgCKPKhJpFerq9PoNy-TIst7eLZ5plQi5Prv0/edit?usp=sharing) as a backend
+* [Google Sheet](https://docs.google.com/spreadsheets/d/1FaxN9KFW7P5FplfjNHkNng58PHqaG7T0TAM2JfoObCg/edit?usp=sharing) as a backend
+  * Added User column.
   * Great privacy and access control.
   * Don't share sensitive data with 3rd party.
   * Unlimited analysis up to your sheet skill.
